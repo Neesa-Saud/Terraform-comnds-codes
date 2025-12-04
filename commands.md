@@ -1,0 +1,24 @@
+- **terraform init** → Initializes the Terraform working directory and downloads providers.
+- **terraform plan** → Shows what Terraform will change before applying anything.
+- **terraform apply** → Executes the plan and creates/updates infrastructure.
+- **terraform destroy** → Deletes all infrastructure managed by Terraform.
+- **terraform validate** → Checks if your Terraform code is syntactically correct.
+- **terraform fmt** → Formats Terraform files into a standard style.
+- **terraform show** → Displays the current state or the output of a state file.
+- **terraform output** → Shows the values of output variables.
+- **terraform refresh** → Updates the state file with the actual real-world resource values.
+- **terraform providers** → Lists all providers used in the configuration.
+- **terraform version** → Shows the installed Terraform version.
+- **terraform get** → Downloads and updates modules in the configuration.
+- **terraform graph** → Produces a visual graph of resource relationships.
+- **terraform import** → Brings an existing real cloud resource into Terraform state.
+- **terraform state list** → Lists resources tracked in the Terraform state.
+- **terraform state show <resource>** → Shows detailed information about one resource.
+- **terraform state rm <resource>** → Removes a resource from the Terraform state.
+- **terraform state mv <old> <new>** → Moves/renames resources in state.
+- **terraform taint <resource>** → Marks a resource to be recreated on next apply.
+- **terraform untaint <resource>** → Removes taint so the resource won't be recreated.
+- **terraform workspace list** → Lists all workspaces.
+- **terraform workspace new <name>** → Creates a new workspace.
+- **terraform workspace select <name>** → Switches between workspaces.
+- **terraform workspace delete <name>** → Deletes a workspace.
